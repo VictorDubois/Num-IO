@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Num-IO")(type "KiCad")(uri "${KIPRJMOD}/Num-IO.kicad_sym")(options "")(descr ""))
+)
