@@ -133,6 +133,10 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -147,8 +151,7 @@
   "erc": {
     "erc_exclusions": [
       "lib_symbol_issues|2400300|863600|7a0bd65e-b89e-442f-af79-812aca8cc9ac|00000000-0000-0000-0000-000000000000",
-      "pin_to_pin|1778000|1117600|a1266841-593e-4289-aaad-1e41a6b80705|67bb9ae2-885c-4199-81b2-7b7c470eaf97",
-      "power_pin_not_driven|1587500|1511300|befd3f90-a485-4cb9-8f3d-8976ac0be983|00000000-0000-0000-0000-000000000000"
+      "pin_to_pin|1778000|1117600|a1266841-593e-4289-aaad-1e41a6b80705|67bb9ae2-885c-4199-81b2-7b7c470eaf97"
     ],
     "meta": {
       "version": 0
@@ -394,7 +397,6 @@
           "+24V",
           "+3.3V",
           "+5VD",
-          "GND",
           "GNDPWR"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
