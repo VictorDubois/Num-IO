@@ -1,20 +1,63 @@
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.7)
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.0
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x000001DEF0675C10>
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with R40 as a reference
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'R40'
-Located on: ['input channel 25-32']
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.7)
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.0
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x000001993EC3C4C0>
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with R4 as a reference
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'R4'
+Located on: ['input channel 1-8']
 With filenames: ['in_chan.kicad_sch']
-With sheet_id:['input channel 25-32']
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
-[('R10', ['input channel 9-16']), ('R40', ['input channel 25-32']), ('R20', ['input channel 17-24']), ('R30', ['input channel 1-8'])]
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'input channel 25-32', file:'in_chan.kicad_sch'
-08-15 23:41:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['input channel 1-8'], ['input channel 17-24'], ['input channel 9-16']]
-08-15 23:41:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['input channel 25-32']
-08-15 23:41:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(3219, 117)
-08-15 23:41:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(2855, 117)
-08-15 23:42:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 232:User canceled the dialog
+With sheet_id:['input channel 1-8']
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
+[('R10', ['input channel 25-32']), ('R8', ['input channel 17-24']), ('R4', ['input channel 1-8']), ('R6', ['input channel 9-16'])]
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'input channel 1-8', file:'in_chan.kicad_sch'
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['input channel 17-24'], ['input channel 25-32'], ['input channel 9-16']]
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['input channel 1-8']
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(3219, 117)
+08-17 13:48:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(2855, 117)
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'input channel 1-8', file:'in_chan.kicad_sch'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['input channel 17-24'], ['input channel 25-32'], ['input channel 9-16']]
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 157:Replicating layout
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['input channel 17-24'], ['input channel 25-32'], ['input channel 9-16']]
+on level: ['input channel 1-8']
+with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
+08-17 13:48:05 root 243:updating GUI message: 'Preparing for replication'
+08-17 13:48:05 root 248:updating GUI with: 0
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
+08-17 13:48:05 root 243:updating GUI message: 'Replicating footprints'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['input channel 17-24']
+08-17 13:48:05 root 248:updating GUI with: 4
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['input channel 25-32']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['input channel 9-16']
+08-17 13:48:05 root 248:updating GUI with: 85
+08-17 13:48:05 root 243:updating GUI message: 'Replicating tracks'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['input channel 17-24']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['input channel 25-32']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['input channel 9-16']
+08-17 13:48:05 root 243:updating GUI message: 'Replicating zones'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['input channel 17-24']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['input channel 25-32']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['input channel 9-16']
+08-17 13:48:05 root 243:updating GUI message: 'Replicating text'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Replicating text
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['input channel 17-24']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['input channel 25-32']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['input channel 9-16']
+08-17 13:48:05 root 243:updating GUI message: 'Replicating drawings'
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating drawings
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['input channel 17-24']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['input channel 25-32']
+08-17 13:48:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['input channel 9-16']
+08-17 13:48:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 177:Replication complete
