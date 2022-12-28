@@ -832,6 +832,7 @@
     )
   )
 
+
   (junction (at 72.39 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 25709263-b8ef-4ddb-a57a-7d563926ec0c)
   )
@@ -3055,11 +3056,17 @@
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/65065733-7b3f-4090-9a30-44385e7fb45b"
       (reference "#PWR073") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/430cb0cd-a96b-48a9-9bc7-225d47d6bd06"
+      (reference "#PWR074") (unit 1) (value "GNDD") (footprint "")
+    )
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/4669e027-83a2-4fb6-8a98-866098ea7982"
       (reference "#PWR075") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/18c510f3-671b-4fd6-b9dd-99e163a6a52e"
       (reference "#PWR076") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/2f4d5568-25a3-4e31-a36a-710aaa068436"
+      (reference "#PWR077") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/44640c58-6ca2-41bc-97df-f34b590da73d"
       (reference "#PWR083") (unit 1) (value "GNDD") (footprint "")
@@ -3129,6 +3136,9 @@
     )
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/0dc32d75-f36e-4b14-aafe-2cc894f786db"
       (reference "#PWR0116") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/c8a9dbbd-816f-4570-a31e-43cebdc79786"
+      (reference "#PWR0117") (unit 1) (value "+5VD") (footprint "")
     )
     (path "/94eb0688-f710-4c77-a991-98d54924db98/12393bb7-cbb7-41d4-afd0-c2062de5fe4c"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -3298,6 +3308,18 @@
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/4bbc5cd1-87a1-429a-ba58-78ec8380b718"
       (reference "C56") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/35c4ef3f-8cc4-4f79-818c-f4e1588cb3fd"
+      (reference "C57") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/50907fe6-1738-423f-b9ab-38de6a5951cb"
+      (reference "C58") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/2b690724-5eb6-41b1-b2a7-5a21f2fd8448"
+      (reference "C59") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/9deee973-f32f-480b-b9b9-18ad571e3afe"
+      (reference "C60") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
     (path "/c822509d-e9f4-4efb-ba8f-114860c2cd02"
       (reference "D1") (unit 1) (value "SM6T36A") (footprint "Diode_SMD:D_SMB")
     )
@@ -3465,6 +3487,9 @@
     )
     (path "/1d55f859-b955-4956-adf8-4e32f584531b/34b818ad-8171-4134-93b9-5a2404c14e18"
       (reference "U12") (unit 1) (value "LTC6820HMS") (footprint "Package_SO:MSOP-16_3x4.039mm_P0.5mm")
+    )
+    (path "/1d55f859-b955-4956-adf8-4e32f584531b/0eb41064-fb3c-4490-815e-669498c25c73"
+      (reference "U13") (unit 1) (value "AP1117-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
   )
 )
