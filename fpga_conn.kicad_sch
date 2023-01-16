@@ -1005,7 +1005,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4bb55aa6-0713-479a-a82d-a6e42a2844b8)
   )
-  (hierarchical_label "FPGA5V" (shape output) (at 234.95 116.84 180)
+  (hierarchical_label "FPGA3.3V" (shape output) (at 234.95 116.84 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 77a50b71-c3db-43e5-9928-05fe06341366)
   )

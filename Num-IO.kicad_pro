@@ -392,7 +392,6 @@
         "name": "Power",
         "nets": [
           "+24V",
-          "+5VD",
           "GNDPWR"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
