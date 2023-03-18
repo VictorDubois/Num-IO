@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -392,8 +392,6 @@
         "name": "Power",
         "nets": [
           "+24V",
-          "+3.3V",
-          "+5VD",
           "GNDPWR"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -506,6 +504,10 @@
     [
       "1d55f859-b955-4956-adf8-4e32f584531b",
       "RJ45 extension"
+    ],
+    [
+      "a9913a04-293d-4355-a8a3-74ff43ad1331",
+      "MPG"
     ]
   ],
   "text_variables": {}
